@@ -7,7 +7,7 @@ from marshmallow_jsonschema import JSONSchema
 
 
 def get_weather(city_name):
-    api_key = "здесь ключ к API"
+    api_key = "62194ea0e4a2186b244e444d26557139"
     base_url = "https://api.openweathermap.org/data/2.5/weather"
     params = {
         'q': city_name,
